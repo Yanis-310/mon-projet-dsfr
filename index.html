@@ -7,27 +7,8 @@
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
     <title>Mon projet DSFR</title>
-
     <link rel="stylesheet" href="./dsfr.min.css" />
     <link rel="stylesheet" href="./utility/utility.min.css" />
-    <link
-      rel="stylesheet"
-      href="./node_modules/@gouvfr/dsfr/dist/dsfr.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="./node_modules/@gouvfr/dsfr/dist/utility/utility.min.css"
-    />
-
-    <script
-      type="module"
-      src="./node_modules/@gouvfr/dsfr/dist/dsfr.module.min.js"
-    ></script>
-    <script
-      type="text/javascript"
-      nomodule
-      src="./node_modules/@gouvfr/dsfr/dist/dsfr.nomodule.min.js"
-    ></script>
   </head>
 
   <body>
@@ -44,14 +25,12 @@
               <div class="fr-header__service">
                 <a
                   href="/"
-                  title="Accueil - [À MODIFIER - Nom du site / service] - Nom de l’entité (ministère, secrétariat d‘état, gouvernement)"
+                  title="Accueil - [À MODIFIER - Nom du site / service] - Nom de l'entité (ministère, secrétariat d'état, gouvernement)"
                 >
-                  <p class="fr-header__service-title">
-                    TVS 
+                  <p class="fr-header__service-title">TVS</p>
                 </a>
                 <p class="fr-header__service-tagline">
-                    Traitment des violences scolaires
-                </p>
+                  Traitement des violences scolaires
                 </p>
               </div>
             </div>
@@ -60,13 +39,8 @@
       </div>
     </header>
 
-
     <div class="fr-tabs">
-      <ul
-        class="fr-tabs__list"
-        role="tablist"
-        aria-label="[A modifier | nom du système d'onglet]"
-      >
+      <ul class="fr-tabs__list" role="tablist" aria-label="Onglets principaux">
         <li role="presentation">
           <button
             id="tabpanel-404"
@@ -88,10 +62,12 @@
             aria-selected="false"
             aria-controls="tabpanel-405-panel"
           >
-          Espace public
+            Espace public
           </button>
         </li>
       </ul>
+
+      <!-- Espace gendarmerie -->
       <div
         id="tabpanel-404-panel"
         class="fr-tabs__panel fr-tabs__panel--selected"
@@ -99,75 +75,241 @@
         aria-labelledby="tabpanel-404"
         tabindex="0"
       >
-        <!-- données de test -->
-        <nav class="fr-sidemenu" role="navigation" aria-labelledby="fr-sidemenu-title">  
-            <div class="fr-sidemenu__inner">    
-              <button class="fr-sidemenu__btn" aria-controls="fr-sidemenu-wrapper" aria-expanded="false">
-                Dans cette rubrique    
-              </button>    
-              <div class="fr-collapse" id="fr-sidemenu-wrapper">      
-                <div class="fr-sidemenu__title" id="fr-sidemenu-title">Espace gendarmerie</div>      
-                <ul class="fr-sidemenu__list">        
-                  <li class="fr-sidemenu__item">          
-                    <button class="fr-sidemenu__btn" aria-expanded="false" aria-controls="fr-sidemenu-item-0">
-                      Vidéo explicative          
-                    </button>          
-                    <div class="fr-collapse" id="fr-sidemenu-item-0">            
-                      <ul class="fr-sidemenu__list">              
-                        <li class="fr-sidemenu__item">                
-                          <a class="fr-sidemenu__link" href="#" target="_self">Accès direct niveau 2</a>              
-                        </li>              
-                        <li class="fr-sidemenu__item">                
-                          <a class="fr-sidemenu__link" href="#" target="_self">Accès direct niveau 2</a>              
-                        </li>              
-                        <li class="fr-sidemenu__item">                
-                          <a class="fr-sidemenu__link" href="#" target="_self">Accès direct niveau 2</a>              
-                        </li>              
-                        <li class="fr-sidemenu__item">                
-                          <a class="fr-sidemenu__link" href="#" target="_self">Accès direct niveau 2</a>              
-                        </li>              
-                        <li class="fr-sidemenu__item">                
-                          <a class="fr-sidemenu__link" href="#" target="_self">Accès direct niveau 2</a>              
-                        </li>              
-                        <li class="fr-sidemenu__item">                
-                          <a class="fr-sidemenu__link" href="#" target="_self">Accès direct niveau 2</a>              
-                        </li>            
-                      </ul>          
-                    </div>        
-                  </li>        
-                  <li class="fr-sidemenu__item fr-sidemenu__item--active">          
-                    <button class="fr-sidemenu__btn" aria-expanded="false" aria-controls="fr-sidemenu-item-1" aria-current="true">
-                      Procés verbaux et document utiles          
-                    </button>          
-                    <div class="fr-collapse" id="fr-sidemenu-item-1">            
-                      <ul class="fr-sidemenu__list">              
-                        <li class="fr-sidemenu__item">                
-                          <a class="fr-sidemenu__link" href="#" target="_self">Pv d'évaluation</a>              
-                        </li>              
-                        <li class="fr-sidemenu__item">                
-                          <a class="fr-sidemenu__link" href="#" target="_self">PV de Rencontre en milieu scolaire</a>              
-                        </li>              
-                        <li class="fr-sidemenu__item fr-sidemenu__item--active">                
-                          <a class="fr-sidemenu__link" href="#" target="_self" aria-current="page">Suivi par l'etablissement a J+30</a>              
-                        </li>              
-                        <li class="fr-sidemenu__item">                
-                          <a class="fr-sidemenu__link" href="#" target="_self">Emargement familles</a>              
-                        </li>              
-                        <li class="fr-sidemenu__item">                
-                          <a class="fr-sidemenu__link" href="#" target="_self">Engagements écrits</a>              
-                        </li>            
-                      </ul>          
-                    </div>        
-                  </li>        
-                  <li class="fr-sidemenu__item">          
-                    <a class="fr-sidemenu__link" href="#" target="_self">Accès direct</a>        
-                  </li>      
-                </ul>    
-              </div>  
+        <div class="fr-grid-row fr-grid-row--gutters">
+          <!-- Menu latéral - respect strict des espacements DSFR -->
+          <div class="fr-col-12 fr-col-md-3">
+            <nav
+              class="fr-sidemenu fr-sidemenu--sticky-full-height"
+              role="navigation"
+              aria-labelledby="fr-sidemenu-title"
+            >
+              <div class="fr-sidemenu__inner">
+                <button
+                  class="fr-sidemenu__btn"
+                  aria-expanded="false"
+                  aria-controls="fr-sidemenu-wrapper"
+                >
+                  Dans cette rubrique
+                </button>
+                <div class="fr-collapse" id="fr-sidemenu-wrapper">
+                  <div class="fr-sidemenu__title" id="fr-sidemenu-title">
+                    Espace gendarmerie
+                  </div>
+                  <ul class="fr-sidemenu__list">
+                    <li class="fr-sidemenu__item">
+                      <button
+                        class="fr-sidemenu__btn"
+                        aria-expanded="false"
+                        aria-controls="fr-sidemenu-item-0"
+                      >
+                        Vidéo explicative
+                      </button>
+                      <div class="fr-collapse" id="fr-sidemenu-item-0">
+                        <ul class="fr-sidemenu__list">
+                          <li class="fr-sidemenu__item">
+                            <a
+                              class="fr-sidemenu__link"
+                              href="#"
+                              target="_self"
+                              data-action="hide-content"
+                              >Accès direct niveau 2</a
+                            >
+                          </li>
+                          <li class="fr-sidemenu__item">
+                            <a
+                              class="fr-sidemenu__link"
+                              href="#"
+                              target="_self"
+                              data-action="hide-content"
+                              >Accès direct niveau 2</a
+                            >
+                          </li>
+                          <li class="fr-sidemenu__item">
+                            <a
+                              class="fr-sidemenu__link"
+                              href="#"
+                              target="_self"
+                              data-action="hide-content"
+                              >Accès direct niveau 2</a
+                            >
+                          </li>
+                        </ul>
+                      </div>
+                    </li>
+                    <li class="fr-sidemenu__item fr-sidemenu__item--active">
+                      <button
+                        class="fr-sidemenu__btn"
+                        aria-expanded="true"
+                        aria-controls="fr-sidemenu-item-1"
+                        aria-current="true"
+                      >
+                        Procès verbaux et documents utiles
+                      </button>
+                      <div
+                        class="fr-collapse fr-collapse--expanded"
+                        id="fr-sidemenu-item-1"
+                      >
+                        <ul class="fr-sidemenu__list">
+                          <li class="fr-sidemenu__item">
+                            <a
+                              class="fr-sidemenu__link"
+                              href="#"
+                              target="_self"
+                              id="pv-evaluation-link"
+                              >Pv d'évaluation</a
+                            >
+                          </li>
+                          <li class="fr-sidemenu__item">
+                            <a
+                              class="fr-sidemenu__link"
+                              href="#"
+                              target="_self"
+                              data-action="hide-content"
+                              >PV de Rencontre en milieu scolaire</a
+                            >
+                          </li>
+                          <li
+                            class="fr-sidemenu__item fr-sidemenu__item--active"
+                          >
+                            <a
+                              class="fr-sidemenu__link"
+                              href="#"
+                              target="_self"
+                              data-action="hide-content"
+                              aria-current="page"
+                              >Suivi par l'établissement à J+30</a
+                            >
+                          </li>
+                          <li class="fr-sidemenu__item">
+                            <a
+                              class="fr-sidemenu__link"
+                              href="#"
+                              target="_self"
+                              data-action="hide-content"
+                              >Émargement familles</a
+                            >
+                          </li>
+                          <li class="fr-sidemenu__item">
+                            <a
+                              class="fr-sidemenu__link"
+                              href="#"
+                              target="_self"
+                              data-action="hide-content"
+                              >Engagements écrits</a
+                            >
+                          </li>
+                        </ul>
+                      </div>
+                    </li>
+                    <li class="fr-sidemenu__item">
+                      <a
+                        class="fr-sidemenu__link"
+                        href="#"
+                        target="_self"
+                        data-action="hide-content"
+                        >Accès direct</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+          </div>
+
+          <!-- Contenu principal - respect strict des espacements DSFR -->
+          <div class="fr-col-12 fr-col-md-9">
+            <div id="gendarmerie-content" class="fr-px-3w fr-py-0 fr-p-md-4w">
+              <!-- Contenu vidéo (masqué par défaut) -->
+              <div
+                id="gendarmerie-video-content"
+                class="video-content fr-mt-3w"
+                style="display: none"
+              >
+                <figure
+                  role="group"
+                  class="fr-content-media fr-content-media--sm"
+                >
+                  <div class="fr-content-media__img">
+                    <iframe
+                      title="Vidéo explicative pour la gendarmerie"
+                      class="fr-responsive-vid"
+                      src="https://www.youtube.com/embed/HyirpmPL43I"
+                      allowfullscreen
+                    ></iframe>
+                  </div>
+                  <figcaption class="fr-content-media__caption">
+                    Description / Source
+                    <a class="fr-link" href="#">Label lien</a>
+                  </figcaption>
+                </figure>
+                <div class="fr-transcription">
+                  <button
+                    class="fr-transcription__btn"
+                    aria-expanded="false"
+                    aria-controls="fr-transcription__collapse-transcription-465"
+                  >
+                    Transcription
+                  </button>
+                  <div
+                    class="fr-collapse"
+                    id="fr-transcription__collapse-transcription-465"
+                  >
+                    <dialog
+                      id="fr-transcription__modal-transcription-465"
+                      class="fr-modal"
+                      role="dialog"
+                      aria-labelledby="fr-transcription__modal-transcription-465-title"
+                    >
+                      <div
+                        class="fr-container fr-container--fluid fr-container-md"
+                      >
+                        <div class="fr-grid-row fr-grid-row--center">
+                          <div class="fr-col-12 fr-col-md-10 fr-col-lg-8">
+                            <div class="fr-modal__body">
+                              <div class="fr-modal__header">
+                                <button
+                                  class="fr-btn--close fr-btn"
+                                  aria-controls="fr-transcription__modal-transcription-465"
+                                  title="Fermer"
+                                >
+                                  Fermer
+                                </button>
+                              </div>
+                              <div class="fr-modal__content">
+                                <h1
+                                  id="fr-transcription__modal-transcription-465-title"
+                                  class="fr-modal__title"
+                                >
+                                  Titre de la vidéo
+                                </h1>
+                                <p>Contenu de la transcription...</p>
+                              </div>
+                              <div class="fr-transcription__footer">
+                                <div class="fr-transcription__actions-group">
+                                  <button
+                                    class="fr-btn fr-btn--fullscreen"
+                                    aria-controls="fr-transcription__modal-transcription-465"
+                                    data-fr-opened="false"
+                                    title=""
+                                  >
+                                    Agrandir
+                                  </button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </dialog>
+                  </div>
+                </div>
+              </div>
             </div>
-          </nav>
-          
+          </div>
+        </div>
       </div>
+
+      <!-- Espace public -->
       <div
         id="tabpanel-405-panel"
         class="fr-tabs__panel"
@@ -175,31 +317,253 @@
         aria-labelledby="tabpanel-405"
         tabindex="0"
       >
-        <!-- données de test -->
-        <nav class="fr-sidemenu" aria-labelledby="fr-sidemenu-title">  
-            <div class="fr-sidemenu__inner">    
-              <button class="fr-sidemenu__btn" hidden aria-controls="fr-sidemenu-wrapper" aria-expanded="false">
-                Dans cette rubrique    
-              </button>    
-              <div class="fr-collapse" id="fr-sidemenu-wrapper">      
-                <div class="fr-sidemenu__title" id="fr-sidemenu-title">Espace public</div>      
-                <ul class="fr-sidemenu__list">        
-                  <li class="fr-sidemenu__item fr-sidemenu__item--active">          
-                    <a class="fr-sidemenu__link" href="#" target="_self" aria-current="page">Vidéo explicative</a>         
-                  </li>        
-                  <li class="fr-sidemenu__item">          
-                    <a class="fr-sidemenu__link" href="#" target="_self">Familles</a>        
-                  </li>        
-                  <li class="fr-sidemenu__item">          
-                    <a class="fr-sidemenu__link" href="#" target="_self">Partenaires institutionnels</a>        
-                  </li>      
-                </ul>    
-              </div>  
+        <div class="fr-grid-row fr-grid-row--gutters">
+          <!-- Menu latéral -->
+          <div class="fr-col-12 fr-col-md-3">
+            <nav
+              class="fr-sidemenu fr-sidemenu--sticky-full-height"
+              aria-labelledby="fr-sidemenu-title"
+            >
+              <div class="fr-sidemenu__inner">
+                <button
+                  class="fr-sidemenu__btn"
+                  aria-expanded="false"
+                  aria-controls="fr-sidemenu-wrapper"
+                >
+                  Dans cette rubrique
+                </button>
+                <div class="fr-collapse" id="fr-sidemenu-wrapper">
+                  <div class="fr-sidemenu__title" id="fr-sidemenu-title">
+                    Espace public
+                  </div>
+                  <ul class="fr-sidemenu__list">
+                    <li class="fr-sidemenu__item fr-sidemenu__item--active">
+                      <a
+                        class="fr-sidemenu__link"
+                        href="#"
+                        target="_self"
+                        id="video-explicative-link"
+                        >Vidéo explicative</a
+                      >
+                    </li>
+                    <li class="fr-sidemenu__item">
+                      <a
+                        class="fr-sidemenu__link"
+                        href="#"
+                        target="_self"
+                        data-action="hide-content"
+                        >Familles</a
+                      >
+                    </li>
+                    <li class="fr-sidemenu__item">
+                      <a
+                        class="fr-sidemenu__link"
+                        href="#"
+                        target="_self"
+                        data-action="hide-content"
+                        >Partenaires institutionnels</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+          </div>
+
+          <!-- Contenu principal -->
+          <div class="fr-col-12 fr-col-md-9">
+            <div id="public-content" class="fr-px-3w fr-py-0 fr-p-md-4w">
+              <!-- Contenu vidéo (masqué par défaut) -->
+              <div
+                id="public-video-content"
+                class="video-content fr-mt-3w"
+                style="display: none"
+              >
+                <figure
+                  role="group"
+                  class="fr-content-media fr-content-media--sm"
+                >
+                  <div class="fr-content-media__img">
+                    <iframe
+                      title="Vidéo explicative pour le public"
+                      class="fr-responsive-vid"
+                      src="https://www.youtube.com/embed/HyirpmPL43I"
+                      allowfullscreen
+                    ></iframe>
+                  </div>
+                  <figcaption class="fr-content-media__caption">
+                    Description / Source
+                    <a class="fr-link" href="#">Label lien</a>
+                  </figcaption>
+                </figure>
+                <div class="fr-transcription">
+                  <button
+                    class="fr-transcription__btn"
+                    aria-expanded="false"
+                    aria-controls="fr-transcription__collapse-transcription-466"
+                  >
+                    Transcription
+                  </button>
+                  <div
+                    class="fr-collapse"
+                    id="fr-transcription__collapse-transcription-466"
+                  >
+                    <dialog
+                      id="fr-transcription__modal-transcription-466"
+                      class="fr-modal"
+                      role="dialog"
+                      aria-labelledby="fr-transcription__modal-transcription-466-title"
+                    >
+                      <div
+                        class="fr-container fr-container--fluid fr-container-md"
+                      >
+                        <div class="fr-grid-row fr-grid-row--center">
+                          <div class="fr-col-12 fr-col-md-10 fr-col-lg-8">
+                            <div class="fr-modal__body">
+                              <div class="fr-modal__header">
+                                <button
+                                  class="fr-btn--close fr-btn"
+                                  aria-controls="fr-transcription__modal-transcription-466"
+                                  title="Fermer"
+                                >
+                                  Fermer
+                                </button>
+                              </div>
+                              <div class="fr-modal__content">
+                                <h1
+                                  id="fr-transcription__modal-transcription-466-title"
+                                  class="fr-modal__title"
+                                >
+                                  Titre de la vidéo
+                                </h1>
+                                <p>Contenu de la transcription...</p>
+                              </div>
+                              <div class="fr-transcription__footer">
+                                <div class="fr-transcription__actions-group">
+                                  <button
+                                    class="fr-btn fr-btn--fullscreen"
+                                    aria-controls="fr-transcription__modal-transcription-466"
+                                    data-fr-opened="false"
+                                    title=""
+                                  >
+                                    Agrandir
+                                  </button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </dialog>
+                  </div>
+                </div>
+              </div>
             </div>
-          </nav>
-          
+          </div>
+        </div>
       </div>
     </div>
+
+    <footer class="fr-footer" role="contentinfo" id="footer-7361">
+      <div class="fr-container">
+        <div class="fr-footer__body">
+          <div class="fr-footer__brand fr-enlarge-link">
+            <a
+              href="/"
+              title="Retour à l'accueil du site - Nom de l'entité (ministère, secrétariat d'état, gouvernement)"
+            >
+              <p class="fr-logo">Intitulé <br />officiel</p>
+            </a>
+          </div>
+          <div class="fr-footer__content">
+            <p class="fr-footer__content-desc">
+              Lorem ipsum dolor sit amet, consectetur adipiscing, incididunt, ut
+              labore et dolore magna aliqua. Vitae sapien pellentesque habitant
+              morbi tristique senectus et. Diam maecenas sed enim ut. Accumsan
+              lacus vel facilisis volutpat est. Ut aliqu
+            </p>
+            <ul class="fr-footer__content-list">
+              <li class="fr-footer__content-item">
+                <a
+                  class="fr-footer__content-link"
+                  target="_blank"
+                  rel="noopener external"
+                  title="info.gouv.fr - nouvelle fenêtre"
+                  href="https://info.gouv.fr"
+                  >info.gouv.fr</a
+                >
+              </li>
+              <li class="fr-footer__content-item">
+                <a
+                  class="fr-footer__content-link"
+                  target="_blank"
+                  rel="noopener external"
+                  title="service-public.fr - nouvelle fenêtre"
+                  href="https://service-public.fr"
+                  >service-public.fr</a
+                >
+              </li>
+              <li class="fr-footer__content-item">
+                <a
+                  class="fr-footer__content-link"
+                  target="_blank"
+                  rel="noopener external"
+                  title="legifrance.gouv.fr - nouvelle fenêtre"
+                  href="https://legifrance.gouv.fr"
+                  >legifrance.gouv.fr</a
+                >
+              </li>
+              <li class="fr-footer__content-item">
+                <a
+                  class="fr-footer__content-link"
+                  target="_blank"
+                  rel="noopener external"
+                  title="data.gouv.fr - nouvelle fenêtre"
+                  href="https://data.gouv.fr"
+                  >data.gouv.fr</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="fr-footer__bottom">
+          <ul class="fr-footer__bottom-list">
+            <li class="fr-footer__bottom-item">
+              <a class="fr-footer__bottom-link" href="#">Plan du site</a>
+            </li>
+            <li class="fr-footer__bottom-item">
+              <a class="fr-footer__bottom-link" href="#"
+                >Accessibilité : non/partiellement/totalement conforme</a
+              >
+            </li>
+            <li class="fr-footer__bottom-item">
+              <a class="fr-footer__bottom-link" href="#">Mentions légales</a>
+            </li>
+            <li class="fr-footer__bottom-item">
+              <a class="fr-footer__bottom-link" href="#"
+                >Données personnelles</a
+              >
+            </li>
+            <li class="fr-footer__bottom-item">
+              <a class="fr-footer__bottom-link" href="#">Gestion des cookies</a>
+            </li>
+          </ul>
+          <div class="fr-footer__bottom-copy">
+            <p>
+              Sauf mention explicite de propriété intellectuelle détenue par des
+              tiers, les contenus de ce site sont proposés sous
+              <a
+                href="https://github.com/etalab/licence-ouverte/blob/master/LO.md"
+                target="_blank"
+                rel="noopener external"
+                title="Licence etalab - nouvelle fenêtre"
+                >licence etalab-2.0</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
 
     <script type="module" src="./dsfr.module.min.js"></script>
     <script
@@ -207,5 +571,53 @@
       nomodule
       src="./dsfr.nomodule.min.js"
     ></script>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        // Initialisation des composants DSFR
+        if (window.dsfr) {
+          window.dsfr.start();
+        }
+
+        // Fonction pour masquer tous les contenus
+        function hideAllContents() {
+          document.querySelectorAll(".video-content").forEach((content) => {
+            content.style.display = "none";
+          });
+        }
+
+        // Gestion du clic sur "Vidéo explicative" dans l'espace public
+        const videoLink = document.getElementById("video-explicative-link");
+        if (videoLink) {
+          videoLink.addEventListener("click", function (e) {
+            e.preventDefault();
+            hideAllContents();
+            document.getElementById("public-video-content").style.display =
+              "block";
+          });
+        }
+
+        // Gestion du clic sur "Pv d'évaluation" dans l'espace gendarmerie
+        const pvEvaluationLink = document.getElementById("pv-evaluation-link");
+        if (pvEvaluationLink) {
+          pvEvaluationLink.addEventListener("click", function (e) {
+            e.preventDefault();
+            hideAllContents();
+            document.getElementById("gendarmerie-video-content").style.display =
+              "block";
+          });
+        }
+
+        // Gestion du clic sur les autres liens du menu
+        document
+          .querySelectorAll('[data-action="hide-content"]')
+          .forEach((link) => {
+            link.addEventListener("click", function (e) {
+              e.preventDefault();
+              hideAllContents();
+            });
+          });
+      });
+    </script>
   </body>
 </html>
