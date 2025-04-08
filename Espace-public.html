@@ -6,7 +6,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-    <title>Mon projet DSFR</title>
+    <title>TVS - Traitement des violences scolaires</title>
 
     <link rel="stylesheet" href="./dsfr.min.css" />
     <link rel="stylesheet" href="./utility/utility.min.css" />
@@ -230,55 +230,96 @@
       </div>
     </header>
 
-    <main role="main" class="home" id="content">
-      <div
-        class="fr-container-fluid ds_banner"
-        id="contenu"
-        style="background-color: var(--background-alt-grey)"
-      >
-        <div class="fr-container">
-          <div class="fr-grid-row fr-grid-row--gutters">
-            <div class="fr-col-lg-6 fr-col-offset-lg-1">
-              <h1 class="fr-mt-3w fr-mt-md-5w fr-mb-5w">
-                TVS - Traitement des violences scolaire
-              </h1>
-              <p class="fr-mb-3w">
-                TVS est un outil numérique national destiné à signaler, suivre
-                et gérer les situations de violence en milieu scolaire. Il aide
-                les équipes éducatives à mieux protéger les élèves en facilitant
-                la coordination des actions.
-              </p>
-              <p class="fr-mb-5w">
-                <a
-                  id="homepage__prendre-en-main-dsfr"
-                  class="fr-btn fr-btn--secondary"
-                  href="/prise-en-main-et-perimetre"
-                  data-fr-js-button-actionee="true"
-                >
-                  Prendre en main le Système de Design
-                </a>
-              </p>
-            </div>
-            <div class="fr-col-12 fr-col-lg-5 fr-pl-0 fr-pl-md-4w fr-pb-0">
-              <figure
-                id="content-media__homepage-banner"
-                role="group"
-                class="fr-content-media"
-                aria-label="Service d'Information du Gouvernement (SIG)"
-              >
-                <div class="fr-content-media__img">
-                  <img
-                    src="/uploads/banner_img_aaa47076b8.png"
-                    alt=""
-                    style="width: 100%"
-                  />
-                </div>
-              </figure>
-            </div>
+    <section>
+      <div class="fr-container fr-py-1w fr-mb-1w fr-mt-5w">
+        <div class="fr-grid-row">
+          <div class="fr-col-md-10">
+            <h2>Espace familles</h2>
+            <p>
+              Cette rubrique met à disposition des supports pédagogiques conçus
+              pour aider les familles à comprendre le protocole TVS, son
+              déroulement, et les engagements qu’il implique. Ces outils visent
+              à favoriser l’adhésion au dispositif, à apaiser les situations et
+              à renforcer le dialogue entre les familles, l’établissement
+              scolaire et les autorités.
+            </p>
           </div>
         </div>
       </div>
-    </main>
+    </section>
+
+    <figure role="group" class="fr-content-media fr-content-media--sm">
+      <iframe
+        title="Titre de l'iframe"
+        class="fr-responsive-vid"
+        src="https://www.youtube.com/embed/HyirpmPL43I"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+      <figcaption class="fr-content-media__caption">
+        Description / Source
+        <a class="fr-link" href="#[url - à modifier]"> Label lien </a>
+      </figcaption>
+    </figure>
+    <div class="fr-transcription">
+      <button
+        class="fr-transcription__btn"
+        aria-expanded="false"
+        aria-controls="fr-transcription__collapse-transcription-465"
+      >
+        Transcription
+      </button>
+      <div
+        class="fr-collapse"
+        id="fr-transcription__collapse-transcription-465"
+      >
+        <dialog
+          id="fr-transcription__modal-transcription-465"
+          class="fr-modal"
+          role="dialog"
+          aria-labelledby="fr-transcription__modal-transcription-465-title"
+        >
+          <div class="fr-container fr-container--fluid fr-container-md">
+            <div class="fr-grid-row fr-grid-row--center">
+              <div class="fr-col-12 fr-col-md-10 fr-col-lg-8">
+                <div class="fr-modal__body">
+                  <div class="fr-modal__header">
+                    <button
+                      class="fr-btn--close fr-btn"
+                      aria-controls="fr-transcription__modal-transcription-465"
+                      title="Fermer"
+                    >
+                      Fermer
+                    </button>
+                  </div>
+                  <div class="fr-modal__content">
+                    <h1
+                      id="fr-transcription__modal-transcription-465-title"
+                      class="fr-modal__title"
+                    >
+                      Titre de la vidéo
+                    </h1>
+                    <!-- données de test -->
+                  </div>
+                  <div class="fr-transcription__footer">
+                    <div class="fr-transcription__actions-group">
+                      <button
+                        class="fr-btn fr-btn--fullscreen"
+                        aria-controls="fr-transcription__modal-transcription-465"
+                        data-fr-opened="false"
+                        title=""
+                      >
+                        Agrandir
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </dialog>
+      </div>
+    </div>
 
     <div class="fr-follow" data-fr-js-follow-actionee="true">
       <div class="fr-container">
@@ -348,6 +389,7 @@
         </div>
       </div>
     </div>
+
     <footer class="fr-footer" id="footer-614" data-fr-js-footer-actionee="true">
       <div class="fr-container">
         <div class="fr-footer__body">
